@@ -1,12 +1,76 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero section with profile, social links, and resume download
+- About section with skills and interests
+- Projects section with image sliders and project details modal
+- Contact section with direct email form and contact info
+- Responsive design for all devices
+- Smooth animations and modern UI
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Tailwind CSS, DaisyUI
+- **Email:** EmailJS (for contact form)
+- **Deployment:** Netlify/Vercel or any static hosting
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   The site will be available at `http://localhost:5173` (or as shown in your terminal).
+
+4. **Build for production:**
+   ```sh
+   npm run build
+   ```
+
+### Configuration
+
+- Update your profile info, project details, and contact information in the respective React components.
+- Place your `resume.pdf` in the `public` folder for the resume download button to work.
+- Configure EmailJS for the contact form (see [EmailJS docs](https://www.emailjs.com/docs/)).
+
+## Folder Structure
+
+```
+/src
+  /components
+  /pages
+  main.jsx
+index.html
+```
+
+## Deployment
+
+You can deploy this site to Netlify, Vercel, or any static hosting provider.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Feel free to fork, customize, and use for your own
